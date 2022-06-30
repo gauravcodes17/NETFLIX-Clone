@@ -1,0 +1,42 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 30px;
+    z-index: 99999;
+    transition-timing-function: ease-in;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_black{
+    background-color: #111;
+    height: 65px;
+}
+.nav_logo{
+    position: fixed;
+    left: 20px;
+    width: 110px;
+    object-fit: contain;
+    cursor: pointer;
+}
+.nav_avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+}
+.nav_title{
+    position: fixed;
+    background-color: transparent;
+    right: 20px;
+    width: 100px;
+    text-align: center;
+    font-size: 17px;
+    object-fit: contain;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 0;
+    cursor: pointer;
+}
